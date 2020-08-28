@@ -18,6 +18,9 @@ lbry.tv	FALSE	/	FALSE	1614346824	_pk_ref.3.42ca	%5B%22PB%22%2C%22%22%2C159857882
 lbry.tv	FALSE	/	FALSE	1632534025	_pk_id.3.42ca	6fb1ce00c1d8a675.1598578825.1.1598578904.1598578825.	Lax
 #HttpOnly_.bestsevenreviews.com	TRUE	/	FALSE	1601170932	__cfduid	d21e74c28d3fa06cbb43217bce55aa6671598578932	Lax
 #HttpOnly_.nyaa.si	TRUE	/	FALSE	1630114971	__ddg1	fSgX2Xb4FrKAvRZ8bhRl	None
-#HttpOnly_.google.com	TRUE	/	FALSE	1614436530	NID	204=fTBHlhqgKzp8adTGdsf3MWbMc5ZLNRtlX_0q8Iwzhc9nf2_pRWixI-gxM_n2pHpQs5XJ-HTGg4eVKRaBGi81aeCmWpgX6owix49aIPL8SWQn2lk7PZL7oNnj9ot2129OwmqEo_abXF5h18r3rJawAn3QrJhwy9_HerudGxirXQg	None
 #HttpOnly_.google.com	TRUE	/verify	TRUE	1614436530	SNID	APx-0P3wVapzi9vybgwmnYzI5W6TPJV8Q4wjvVV1KCrC9C_B9K4fKVJgnY-ZfxXemDfaEEBEdDXuEykktSUl	Lax
-.google.com	TRUE	/	TRUE	1601217330	1P_JAR	2020-08-28-14	None
+#HttpOnly_.google.com	TRUE	/	FALSE	1614444938	NID	204=GkgWTkjUKI_We-IvuBtzmQq0raTzJiwoeLFyh4uAezSFJ84N2yKpVqs7xwitvUplMBX_4XTDzUWESw-rH9-G18bPrnKW_28HOr91o7Mx8obI5ppIoXVq1XFPbf6hsIsi9oWTORnU63SzCYa2FzEkvY5qimcZb-C0ARtXLxO9hA8	None
+www.letras.mus.br	FALSE	/	TRUE	1601225753	always	undefined	None
+#HttpOnly_en.wikipedia.org	FALSE	/	TRUE	1601380800	WMF-Last-Access	28-Aug-2020	None
+.google.com	TRUE	/	TRUE	1601226855	1P_JAR	2020-08-28-17	None
+www.google.com	FALSE	/	FALSE	1598635456	DV	kzRceLPe994k0DzpQMFNBR0D2wBhQ1cOd0vyzxJY5wAAAAA	None
