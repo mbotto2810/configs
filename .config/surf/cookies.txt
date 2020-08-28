@@ -1,6 +1,23 @@
 #HttpOnly_.google.com	TRUE	/complete/search	FALSE	1614129601	CGIC	Ij90ZXh0L2h0bWwsYXBwbGljYXRpb24veGh0bWwreG1sLGFwcGxpY2F0aW9uL3htbDtxPTAuOSwqLyo7cT0wLjg	None
 #HttpOnly_.google.com	TRUE	/search	FALSE	1614129601	CGIC	Ij90ZXh0L2h0bWwsYXBwbGljYXRpb24veGh0bWwreG1sLGFwcGxpY2F0aW9uL3htbDtxPTAuOSwqLyo7cT0wLjg	None
-#HttpOnly_.google.com	TRUE	/verify	TRUE	1614389048	SNID	APx-0P30HGxQSt3y5_paFXtge3dnQuSVLtXqSUvDeOFkNlQLnovywPD00IO2YmngKLWmMPHqXDE0SIeEX1Sr	Lax
-#HttpOnly_.google.com	TRUE	/	FALSE	1614389515	NID	204=Z1TdTgrDvMsi0IYgax2komOdG-MmldQpsem2rzDoz86UhhdIngecwae3EeibWX2d_QOXS7vWlhGGIg__IFY2xwpuabyDSotGG_2DzzqW8v1o4KYlpdDHDUMN40w98UdFPEN7Wpk3se4vv-SX6a6i9C4RZNq5ql5XyFrSCiSu-Vo	None
-.google.com	TRUE	/	TRUE	1601170378	1P_JAR	2020-08-28-01	None
-www.google.com	FALSE	/	FALSE	1598578980	DV	kzRceLPe994kkMPdkvyzBNZ5pyQrQ1fzpAMFNxV0jAMAAAA	None
+#HttpOnly_.crunchyroll.com	TRUE	/	FALSE	1601170567	__cfduid	d4d62c9c2df0fbe18774093e5c138ed171598578567	Lax
+#HttpOnly_.crunchyroll.com	TRUE	/	FALSE	1614130569	c_visitor	c6b4470f-d6ea-4b5b-93d7-af0cd67c5a99	None
+www.crunchyroll.com	FALSE	/	FALSE	1630114570	initial_referrer		None
+#HttpOnly_.crunchyroll.com	TRUE	/	FALSE	1630114580	VILOS_DRM_ROLLOUT	9d5ed678fe57bcca610140957afab571_1	None
+.crunchyroll.com	TRUE	/	FALSE	1630114742	ajs_anonymous_id	%229afcf33d-5e1a-43cc-b95b-e9c24f1ce430%22	Lax
+#HttpOnly_.thepiratebay.org	TRUE	/	TRUE	1601170775	__cfduid	d295ea4999e05f6821f66e7dad6e5dbce1598578775	Lax
+#HttpOnly_.tecnoblog.net	TRUE	/	TRUE	1601170787	__cfduid	d0e572acc7aa29f6bcb2adfc5d58bc53a1598578787	Lax
+.tecnoblog.net	TRUE	/	FALSE	1661650788	_ga	GA1.2.761085125.1598578788	None
+.tecnoblog.net	TRUE	/	FALSE	1598665188	_gid	GA1.2.1137630676.1598578788	None
+#HttpOnly_pt.wikipedia.org	FALSE	/	TRUE	1601337600	WMF-Last-Access	28-Aug-2020	None
+#HttpOnly_.wikipedia.org	TRUE	/	TRUE	1601337600	WMF-Last-Access-Global	28-Aug-2020	None
+#HttpOnly_.pirate-bay.org	TRUE	/	FALSE	3746062458	sid	685dae14-e8cf-11ea-a1a6-09bfde66ac31	None
+#HttpOnly_.lbry.tv	TRUE	/	FALSE	1601170821	__cfduid	db184df7c114c3f6f2a10d7ad6fa44bb61598578821	Lax
+lbry.tv	FALSE	/	FALSE	1614346824	_pk_ref.3.42ca	%5B%22PB%22%2C%22%22%2C1598578825%2C%22%22%5D	Lax
+.lbry.tv	TRUE	/	TRUE	1630114885	auth_token	GvMvgpLvCk83Kcw5SopJ7Smy98Bx3itQ	None
+lbry.tv	FALSE	/	FALSE	1632534025	_pk_id.3.42ca	6fb1ce00c1d8a675.1598578825.1.1598578904.1598578825.	Lax
+#HttpOnly_.bestsevenreviews.com	TRUE	/	FALSE	1601170932	__cfduid	d21e74c28d3fa06cbb43217bce55aa6671598578932	Lax
+#HttpOnly_.nyaa.si	TRUE	/	FALSE	1630114971	__ddg1	fSgX2Xb4FrKAvRZ8bhRl	None
+#HttpOnly_.google.com	TRUE	/	FALSE	1614436530	NID	204=fTBHlhqgKzp8adTGdsf3MWbMc5ZLNRtlX_0q8Iwzhc9nf2_pRWixI-gxM_n2pHpQs5XJ-HTGg4eVKRaBGi81aeCmWpgX6owix49aIPL8SWQn2lk7PZL7oNnj9ot2129OwmqEo_abXF5h18r3rJawAn3QrJhwy9_HerudGxirXQg	None
+#HttpOnly_.google.com	TRUE	/verify	TRUE	1614436530	SNID	APx-0P3wVapzi9vybgwmnYzI5W6TPJV8Q4wjvVV1KCrC9C_B9K4fKVJgnY-ZfxXemDfaEEBEdDXuEykktSUl	Lax
+.google.com	TRUE	/	TRUE	1601217330	1P_JAR	2020-08-28-14	None
