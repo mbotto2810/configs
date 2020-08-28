@@ -5,7 +5,7 @@
 *.font:	Liberation Mono:pixelsize=16:antialias=true:autohint=true;
 
 /* Background */
-/*  *.background:    #000000  */
+ *.background:    #000000
 
 /* name		dark	light */
 /* black	0	8 */
