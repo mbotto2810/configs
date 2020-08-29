@@ -8,7 +8,6 @@ www.crunchyroll.com	FALSE	/	FALSE	1630114570	initial_referrer		None
 #HttpOnly_.thepiratebay.org	TRUE	/	TRUE	1601170775	__cfduid	d295ea4999e05f6821f66e7dad6e5dbce1598578775	Lax
 #HttpOnly_.tecnoblog.net	TRUE	/	TRUE	1601170787	__cfduid	d0e572acc7aa29f6bcb2adfc5d58bc53a1598578787	Lax
 .tecnoblog.net	TRUE	/	FALSE	1661650788	_ga	GA1.2.761085125.1598578788	None
-.tecnoblog.net	TRUE	/	FALSE	1598665188	_gid	GA1.2.1137630676.1598578788	None
 #HttpOnly_pt.wikipedia.org	FALSE	/	TRUE	1601337600	WMF-Last-Access	28-Aug-2020	None
 #HttpOnly_.wikipedia.org	TRUE	/	TRUE	1601337600	WMF-Last-Access-Global	28-Aug-2020	None
 #HttpOnly_.pirate-bay.org	TRUE	/	FALSE	3746062458	sid	685dae14-e8cf-11ea-a1a6-09bfde66ac31	None
@@ -18,9 +17,9 @@ lbry.tv	FALSE	/	FALSE	1614346824	_pk_ref.3.42ca	%5B%22PB%22%2C%22%22%2C159857882
 lbry.tv	FALSE	/	FALSE	1632534025	_pk_id.3.42ca	6fb1ce00c1d8a675.1598578825.1.1598578904.1598578825.	Lax
 #HttpOnly_.bestsevenreviews.com	TRUE	/	FALSE	1601170932	__cfduid	d21e74c28d3fa06cbb43217bce55aa6671598578932	Lax
 #HttpOnly_.nyaa.si	TRUE	/	FALSE	1630114971	__ddg1	fSgX2Xb4FrKAvRZ8bhRl	None
-#HttpOnly_.google.com	TRUE	/verify	TRUE	1614436530	SNID	APx-0P3wVapzi9vybgwmnYzI5W6TPJV8Q4wjvVV1KCrC9C_B9K4fKVJgnY-ZfxXemDfaEEBEdDXuEykktSUl	Lax
-#HttpOnly_.google.com	TRUE	/	FALSE	1614444938	NID	204=GkgWTkjUKI_We-IvuBtzmQq0raTzJiwoeLFyh4uAezSFJ84N2yKpVqs7xwitvUplMBX_4XTDzUWESw-rH9-G18bPrnKW_28HOr91o7Mx8obI5ppIoXVq1XFPbf6hsIsi9oWTORnU63SzCYa2FzEkvY5qimcZb-C0ARtXLxO9hA8	None
 www.letras.mus.br	FALSE	/	TRUE	1601225753	always	undefined	None
 #HttpOnly_en.wikipedia.org	FALSE	/	TRUE	1601380800	WMF-Last-Access	28-Aug-2020	None
-.google.com	TRUE	/	TRUE	1601226855	1P_JAR	2020-08-28-17	None
-www.google.com	FALSE	/	FALSE	1598635456	DV	kzRceLPe994k0DzpQMFNBR0D2wBhQ1cOd0vyzxJY5wAAAAA	None
+#HttpOnly_.google.com	TRUE	/verify	TRUE	1614468547	SNID	APx-0P19USAPW5d7ja8nzQb5Y6E3-cFNTJFKHl1oOfLfR7idQDcwjTXHAS-hj2JRB4IKpeL2DM0C01OIblpD	Lax
+#HttpOnly_.google.com	TRUE	/	FALSE	1614484721	NID	204=hWnUIgHKq06g0j1D_ocTn7nvifQdmwxDrrRWXdULiblEQIBazQTNKfvht-jTLXS7Wp-uKKhs91ViLo3FHi8RdRyJ3f35ek614811h4fQtZCwjgnkOG4lL1KyqJXLy-GSdnhIjorWZ-CYbMZdwgHsgLGv_0sPXe1AV3US8oCq3VQ	None
+.google.com	TRUE	/	TRUE	1601267049	1P_JAR	2020-08-29-04	None
+www.google.com	FALSE	/	FALSE	1598675649	DV	kzRceLPe994k0DzpQMFNBR1zzFWHQ1cOd0vyzxJY5wEAAAA	None

@@ -14,7 +14,6 @@ map i recolor
 map p print
 
 # Dark background
-
 set completion-fg               "#ebdbb2" # fg
 set index-fg                    "#ebdbb2" # fg
 set recolor-darkcolor           "#ebdbb2" # fg

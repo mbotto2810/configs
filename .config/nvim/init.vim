@@ -11,8 +11,6 @@ Plug 'junegunn/limelight.vim'
 Plug 'junegunn/seoul256.vim'
 Plug 'morhetz/gruvbox'
 Plug 'junegunn/vim-journal'
-Plug 'lervag/vimtex'
-Plug 'w0rp/ale'
 Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'nightsense/forgotten'
 Plug 'zaki/zazen'
@@ -28,6 +26,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
 Plug 'majutsushi/tagbar'
+Plug 'lervag/vimtex'
+Plug 'w0rp/ale'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'zchee/deoplete-jedi'
@@ -73,15 +73,17 @@ highlight LineNr guibg=NONE ctermbg=NONE
 
 """ Other Configurations
 filetype plugin indent on
-set tabstop=4 softtabstop=4 shiftwidth=4 expandtab smarttab autoindent
+set tabstop=8 softtabstop=8 shiftwidth=8 expandtab smarttab autoindent
 set incsearch ignorecase smartcase hlsearch
 set ruler laststatus=2 showcmd showmode
 set list listchars=trail:»,tab:»-
 set fillchars+=vert:\
 set wrap breakindent
 set encoding=utf-8
-set number
 set title
+set clipboard+=unnamed
+set number relativenumber nu
+set colorcolumn=120
 
 """ Plugin Configurations
 
@@ -96,7 +98,7 @@ let g:NERDTreeMinimalUI = 1
 " let g:airline_powerline_fonts = 1
 let g:airline_section_z = ' %{strftime("%-I:%M %p")}'
 let g:airline_section_warning = ''
- let g:airline_theme='base16'
+let g:airline_theme='base16'
 " let g:airline#extensions#tabline#enabled = 1
 
 " Neovim :Terminal
