@@ -116,6 +116,9 @@ set completeopt-=preview
 " Supertab
 let g:SuperTabDefaultCompletionType = "<C-n>"
 
+" latex
+let g:tex_flavor = 'latex'
+
 " Ultisnips
 let g:UltiSnipsExpandTrigger="<C-Space>"
 let g:UltiSnipsJumpForwardTrigger="<Tab>"

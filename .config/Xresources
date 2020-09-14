@@ -1,8 +1,8 @@
 !! Transparency (0-1):
-*.alpha: 0.97
+*.alpha: 1
 
 !! Set a default font and font size as below:
-*.font:	Liberation Mono:pixelsize=16:antialias=true:autohint=true;
+*.font:	terminus:pixelsize=20:antialias=true:autohint=true;
 
 /* Background */
  *.background:    #000000
