@@ -9,7 +9,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'junegunn/seoul256.vim'
-Plug 'morhetz/gruvbox'
+Plug 'chriskempson/base16-vim'
 Plug 'junegunn/vim-journal'
 Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'nightsense/forgotten'
@@ -25,9 +25,11 @@ Plug 'rhysd/vim-color-spring-night'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
+"Plug 'neovim/nvim-lspconfig'
 Plug 'majutsushi/tagbar'
 Plug 'lervag/vimtex'
 Plug 'w0rp/ale'
+"Plug 'nvim-lua/completion-nvim'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'zchee/deoplete-jedi'
@@ -56,14 +58,6 @@ call plug#end()
 """ Python3 VirtualEnv
 let g:python3_host_prog = expand('~/.config/nvim/env/bin/python')
 
-""" Coloring
-syntax on
-color gruvbox
-highlight Pmenu guibg=white guifg=black gui=bold
-highlight Comment gui=bold
-highlight Normal gui=none
-highlight NonText guibg=none
-
 " Opaque Background (Comment out to use terminal's profile)
 set termguicolors
 
@@ -73,7 +67,7 @@ highlight LineNr guibg=NONE ctermbg=NONE
 
 """ Other Configurations
 filetype plugin indent on
-set tabstop=8 softtabstop=8 shiftwidth=8 expandtab smarttab autoindent
+set tabstop=4 softtabstop=4 shiftwidth=4 expandtab smarttab autoindent
 set incsearch ignorecase smartcase hlsearch
 set ruler laststatus=2 showcmd showmode
 set list listchars=trail:»,tab:»-
@@ -83,7 +77,8 @@ set encoding=utf-8
 set title
 set clipboard+=unnamed
 set number relativenumber nu
-set colorcolumn=120
+set colorcolumn=80
+set nuw=10
 
 """ Plugin Configurations
 
@@ -91,7 +86,7 @@ set colorcolumn=120
 let NERDTreeShowHidden=0
 let g:NERDTreeDirArrowExpandable = '↠'
 let g:NERDTreeDirArrowCollapsible = '↡'
-let g:NERDTreeWinSize = 20
+let g:NERDTreeWinSize = 40
 let g:NERDTreeMinimalUI = 1
 
 " Airline
@@ -233,6 +228,7 @@ nmap <leader>g :Goyo<CR>
 nmap <leader>h :RainbowParentheses!!<CR>
 nmap <leader>j :set filetype=journal<CR>
 nmap <leader>k :ColorToggle<CR>
+nmap <leader>k :ColorToggle<CR>
 nmap <leader>l :Limelight!!<CR>
 xmap <leader>l :Limelight!!<CR>
 autocmd FileType python nmap <leader>x :0,$!~/.config/nvim/env/bin/python -m yapf<CR>
@@ -273,9 +269,6 @@ endif
 " Auto compile dwmblocks
 autocmd BufWritePost ~/.local/src/dwmblocks/config.h !cd ~/.local/src/dwmblocks/;sudo make install && { killall -q dwmblocks;setsid dwmblocks & }
 
-set number relativenumber nu
-set colorcolumn=120
-
 " Set this in your vimrc file to disabling highlighting
 " let g:ale_set_highlights = 0
 
@@ -284,3 +277,24 @@ map <leader>c :w! \| !compiler <c-r>%<CR>
 
 " Runs a script that cleans out tex build files whenever I close out of a .tex file.
 autocmd VimLeave *.tex !texclear %
+
+""" Coloring
+syntax on
+highlight Pmenu guibg=white guifg=black gui=bold
+highlight Comment gui=bold
+highlight Normal gui=none
+highlight NonText guibg=none
+
+colorscheme base16-default-dark
+hi Normal guibg=black
+
+" Use <Tab> and <S-Tab> to navigate through popup menu
+" inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
+" inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+
+" Set completeopt to have a better completion experience
+" set completeopt=menuone,noinsert,noselect
+
+" Avoid showing message extra message when using completion
+" set shortmess+=c
+set cul
