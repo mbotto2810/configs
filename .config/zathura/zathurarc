@@ -1,7 +1,7 @@
 set statusbar-h-padding 0
 set statusbar-v-padding 0
-set guioptions ""
-set recolor     "true"
+# set guioptions ""
+# set recolor     "true"
 set page-padding 1
 map u scroll half-up
 map d scroll half-down
@@ -14,13 +14,13 @@ map i recolor
 map p print
 
 # Dark background
-set completion-fg               "#ebdbb2" # fg
-set index-fg                    "#ebdbb2" # fg
-set recolor-darkcolor           "#ebdbb2" # fg
-set render-loading-fg           "#ebdbb2" # fg
-set statusbar-fg                "#ebdbb2" # fg
-set default-fg                  "#ebdbb2" # fg
-set inputbar-fg                 "#ebdbb2" # fg
+#set completion-fg               "#ebdbb2" # fg
+#set index-fg                    "#ebdbb2" # fg
+#set recolor-darkcolor           "#ebdbb2" # fg
+#set render-loading-fg           "#ebdbb2" # fg
+#set statusbar-fg                "#ebdbb2" # fg
+#set default-fg                  "#ebdbb2" # fg
+#set inputbar-fg                 "#ebdbb2" # fg
 
 
 # Gruvbox

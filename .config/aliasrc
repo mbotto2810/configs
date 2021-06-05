@@ -6,7 +6,9 @@ command -v nvim >/dev/null && alias vim="nvim" vimdiff="nvim -d"
 # Verbosity and settings that you pretty much just always are going to want.
 alias \
 	cp="cp -iv" \
-	l="ls -lh" \
+	ls="exa -lh" \
+	sl="exa -lh" \
+	l="exa -lh" \
 	mv="mv -iv" \
 	rm="rm -vI" \
 	mkd="mkdir -pv" \
@@ -15,13 +17,21 @@ alias \
 	ffmpeg="ffmpeg -hide_banner"
 
 # Colorize commands when possible.
+#ls="ls -hN --color=auto --group-directories-first" \
 alias \
-	ls="ls -hN --color=auto --group-directories-first" \
 	grep="grep --color=auto" \
 	diff="diff --color=auto" \
 	ccat="highlight --out-format=ansi"
 
 # These common commands are just too long! Abbreviate them.
+alias \
+	magit="nvim -c MagitOnly" \
+	ref="shortcuts >/dev/null; source ${XDG_CONFIG_HOME:-$HOME/.config}/shortcutrc ; source ${XDG_CONFIG_HOME:-$HOME/.config}/zshnameddirrc" \
+	weath="less -S ${XDG_DATA_HOME:-$HOME/.local/share}/weatherreport" \
+	tmux="tmux -f ${XDG_CONFIG_HOME:-$HOME/.config}/tmux/tmux.conf" \
+	prog="cd ~/home/prog;ls" \
+	work="cd ~/home/0-TERM;ls"
+
 alias \
 	ka="killall" \
 	g="git" \
@@ -29,19 +39,13 @@ alias \
 	YT="youtube-viewer" \
 	sdn="sudo shutdown -h now" \
 	f="$FILE" \
-    t="tmux" \
+	t="tmux new-session -d -s Main \; new-window \; new-window -d\;
+	   tmux attach-session -d -t Main \; select-window -t 1 " \
 	v="$EDITOR" \
 	p="sudo pacman" \
 	xi="sudo xbps-install" \
 	xr="sudo xbps-remove -R" \
 	xq="xbps-query" \
 	z="zathura" \
-    gcc="gcc -Wextra -pedatic -ansi -Wall" \
-    tcc="tcc -Wall"
-
-alias \
-	magit="nvim -c MagitOnly" \
-	ref="shortcuts >/dev/null; source ${XDG_CONFIG_HOME:-$HOME/.config}/shortcutrc ; source ${XDG_CONFIG_HOME:-$HOME/.config}/zshnameddirrc" \
-	weath="less -S ${XDG_DATA_HOME:-$HOME/.local/share}/weatherreport" \
-	tmux="tmux -f ${XDG_CONFIG_HOME:-$HOME/.config}/tmux/tmux.conf" \
-    prog="nvim ~/home/prog"
+	gcc2="gcc -Wextra -pedantic -ansi -Wall" \
+	tcc="tcc -Wall"
