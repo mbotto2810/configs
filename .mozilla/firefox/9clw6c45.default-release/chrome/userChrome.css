@@ -1,0 +1,73 @@
+/* Hide mic icon */
+#webrtcIndicator {
+  display: none;
+}
+
+@-moz-document url(chrome://browser/content/browser.xhtml) {
+	#mainPopupSet ~ box { -moz-box-ordinal-group: 10; }
+	#titlebar { -moz-box-ordinal-group: 10; }
+	#urlbar {
+		top: unset !important;
+		bottom: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
+		box-shadow: none !important;
+		display: flex !important;
+		flex-direction: column !important;
+	}
+	#urlbar-input-container {
+		order: 2;
+	}
+	#urlbar > .urlbarView {
+		order: 1;
+		border-bottom: 1px solid #666;
+	}
+	#urlbar-results {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.search-one-offs { display: none !important; }
+	.tab-background { border-top: none !important; }
+	#navigator-toolbox::after { border: none; }
+	#TabsToolbar .tabbrowser-arrowscrollbox,
+	#tabbrowser-tabs, .tab-stack { min-height: 28px !important; }
+	.tabbrowser-tab { font-size: 80%; }
+	.tab-content { padding: 0 5px; }
+	.tab-close-button .toolbarbutton-icon { width: 12px !important; height: 12px !important; }
+}
+
+
+/*
+#urlbar {font-size: 15px !important;}
+*/
+
+#tabbrowser-tabs .tab-text{
+	/*font-family: GohuFont Nerd Font Mono !important;*/
+	font-size: 12px !important;
+}
+
+
+
+/*
+#tabbrowser-tabs {
+    --tab-line-color: red !important;
+}
+
+.tab-line {
+    height: 2px !important;
+}
+*/
+
+/*** Hide Tab Close buttons ***/
+.tabbrowser-tab .tab-close-button {
+  visibility: collapse !important;
+}
+
+
+/*** Ultra compact ***/
+#titlebar{-moz-appearance: none !important;}
+:root[sizemode="maximized"]{padding-top:8px !important;}
+.titlebar-button{ padding: 4px 17px !important; }
+#TabsToolbar{ --tab-min-height: 20px }
+#navigator-toolbox{ --toolbarbutton-inner-padding: 3px }
+#urlbar{ margin: 0 5px !important; min-height: 20px !important; }
+#pageActionSeparator,.urlbar-icon{ height: 20px !important; }
+.urlbar-input{ line-height: 16px !important; }

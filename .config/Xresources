@@ -2,7 +2,7 @@
 *.alpha: 1
 
 !! Set a default font and font size as below:
-st.font: Noto Sans Mono :pixelsize=22:antialias=true:autohint=true;
+st.font: Noto Sans Mono :pixelsize=18:antialias=true:autohint=true;
 !! *.font:	terminus:pixelsize=28:antialias=true:autohint=true;
 !! *.font:	JetBrainsMono Nerd Font:pixelsize=18:antialias=true:autohint=true;
 !! *.font:	GohuFont Nerd Font Mono:pixelsize=24:antialias=true:autohint=true;
